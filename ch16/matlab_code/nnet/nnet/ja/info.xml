@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="shift_jis"?>
+
+<!-- $Revision: 1.1 $ $Date: 2002/05/29 18:53:32 $ -->
+<productinfo>
+
+<matlabrelease>13</matlabrelease>
+<name>Neural Network</name>
+<type>toolbox</type>
+<icon>$toolbox/matlab/icons/matlabicon.gif</icon>
+
+<list>
+
+<listitem>
+<label>NNTool</label>
+<callback>nntool</callback>
+<icon>$toolbox/matlab/icons/figureicon.gif</icon>
+</listitem>
+
+<listitem>
+<label>ヘルプ</label>
+<callback>doc nnet/</callback>
+<icon>$toolbox/matlab/icons/book_mat.gif</icon>
+</listitem>
+
+<listitem>
+<label>デモ</label>
+<callback>demo toolbox Neural</callback>
+<icon>$toolbox/matlab/icons/demoicon.gif</icon>
+</listitem>
+
+<listitem>
+<label>製品ページ (Web)</label>
+<callback>web http://www.mathworks.com/products/neuralnet/ -browser;</callback>
+<icon>$toolbox/matlab/icons/webicon.gif</icon>
+</listitem>
+
+</list>
+
+</productinfo>
