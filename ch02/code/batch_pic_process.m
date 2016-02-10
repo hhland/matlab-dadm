@@ -9,7 +9,7 @@ momentfile ='../tmp/moment.xls'; % 图片阶矩存储路径
 %% 日志文件初始化
 fileID = fopen(logfile,'a+'); % 以追加的方式添加日志信息
 loginfo =[datestr(now) '  ' '日志初始化完成']; % 日志信息
-fprintf(fileID,'%s\r\n',loginfo);  %  写入日志信息 
+fprintf(fileID,'%s\r\n',loginfo);  %  写入日志信息
 
 %% 图片名批量获取
 inputfolder=dir(picdir);

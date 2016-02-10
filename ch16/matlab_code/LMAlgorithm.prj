@@ -1,0 +1,320 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2945958914" file="E:\fansy_work\matlab_java_test\lmtest\LMAlgorithm.prj" location="E:\fansy_work\matlab_java_test\lmtest" name="LMAlgorithm" preferred-package-location="E:\fansy_work\matlab_java_test\lmtest\LMAlgorithm\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="MATLAB Compiler for Libraries and Classes">
+    <param.appname>LMAlgorithm</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\LMAlgorithm\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\LMAlgorithm\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\LMAlgorithm\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\LMAlgorithm\for_testing\classify.lm_net_classify.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\LMAlgorithm\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.java.package</param.target.type>
+    <param.support.packages />
+    <param.namespace>classify.lm_net_classify</param.namespace>
+    <param.classorg />
+    <param.function.data />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>classify.lm_net_classify</param.net.tsa.namespace>
+    <param.net.tsa.superclass>LMClass</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Users\Administrator\Documents\MATLAB</param.net.tsa.metadata.assembly>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.support.packages />
+      <param.classorg />
+      <param.function.data />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\lmNetClassify.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="LMClass">
+          <file>${PROJECT_ROOT}\lmNetClassify.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources>
+      <file>${MATLAB_ROOT}\toolbox\sldo\slestim\slestim\@ParameterEstimator\State.m</file>
+      <file>${PROJECT_ROOT}\chgicon.m</file>
+      <file>${PROJECT_ROOT}\deltalin.m</file>
+      <file>${PROJECT_ROOT}\deltatan.m</file>
+      <file>${PROJECT_ROOT}\dlogsig.m</file>
+      <file>${PROJECT_ROOT}\dpurelin.m</file>
+      <file>${PROJECT_ROOT}\dtansig.m</file>
+      <file>${PROJECT_ROOT}\learnlm.m</file>
+      <file>${PROJECT_ROOT}\lmNetPredict.m</file>
+      <file>${PROJECT_ROOT}\lmNetStructure.m</file>
+      <file>${PROJECT_ROOT}\lmNetTest.m</file>
+      <file>${PROJECT_ROOT}\lmNetTrain.m</file>
+      <file>${PROJECT_ROOT}\logsig.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\adaptwb.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\adaptwh.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\alabel.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs1b.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs1d.mat</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs2b.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs2d.mat</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\appcs2d2.mat</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\applin3.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\applin4.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\assoclr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\backprop.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\barerr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\compnet.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\delaysig.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\deltalin.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\deltalog.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\deltatan.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\elman.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\hopfield.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initc.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initelm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initff.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initlin.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initlvq.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\initsm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\learnbp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\learnbpm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\learnlm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\learnlvq.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\linnet.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\lvq.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nbdist.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nbgrid.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nbman.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nncpy.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nncpyd.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nncpyi.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nndef.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nnfmc.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nnmaxr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nnminr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nnsumr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nwlog.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\nwtan.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\percept.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\pickic.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\ploterr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\plotfa.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\plotlr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\plotmap.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\plotsm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\plottr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\radbasis.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\selforg.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simuc.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simuelm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simuff.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simuhop.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simulin.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simulvq.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simup.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simurb.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\simusm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\solvehop.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\solvelin.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\solverb.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\solverbe.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbp1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbp2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbp3.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbpx1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbpx2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tbpx3.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tlm1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tlm2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\tlm3.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainbp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainbpa.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainbpm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainbpx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\traincold.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainelm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainlvq.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainpn.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainsm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainwb.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainwb1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnobsolete\trainwh.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\addnntemppath.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calca.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calca1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calce.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calce1.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcerr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcgrad.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcgx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcjejj.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcjx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcpd.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\calcperf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\cliptr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\competsl.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\dnullpf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\dnulltf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\dnullwf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\formgx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\formx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\genbpm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\gensimm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\gentraincm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\gentrainrm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\gentrainsm.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\getx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\newnet.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\newnntempfile.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\newtr.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nnetbhelp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nnguitools.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nntesthelp.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nntobsf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nntobsu.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nntwarn.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\nullpf.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\pause2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\private\nncell2string.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\private\nnmat2string.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\setx.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\substring.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\trainb2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\trainc2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\traingd2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\trainr2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\trains2.m</file>
+      <file>${PROJECT_ROOT}\nnet\nnutils\updatenet.m</file>
+      <file>${PROJECT_ROOT}\purelin.m</file>
+      <file>${PROJECT_ROOT}\rands.m</file>
+      <file>${PROJECT_ROOT}\simuff.m</file>
+      <file>${PROJECT_ROOT}\tansig.m</file>
+      <file>${PROJECT_ROOT}\tlm1.m</file>
+      <file>${PROJECT_ROOT}\tlm2.m</file>
+      <file>${PROJECT_ROOT}\tlm3.m</file>
+      <file>${PROJECT_ROOT}\trainlm.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\LMAlgorithm\for_testing" name="readme.txt" optional="true">E:\fansy_work\matlab_java_test\lmtest\LMAlgorithm\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\LMAlgorithm\for_testing" name="doc" optional="false">E:\fansy_work\matlab_java_test\lmtest\LMAlgorithm\for_testing\doc</file>
+      <file location="${PROJECT_ROOT}\LMAlgorithm\for_testing" name="lm_net_classify.jar" optional="false">E:\fansy_work\matlab_java_test\lmtest\LMAlgorithm\for_testing\lm_net_classify.jar</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
